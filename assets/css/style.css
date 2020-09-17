@@ -1,0 +1,25 @@
+body {
+    background-color: #fafafa;
+
+}
+
+.menu h1 {
+    font-family:'PT Serif', serif;
+    font-size: 36px;
+    font: weight 700; ;
+}
+.menu p {
+    font-family:'Poppins';
+    font-size: 18px;
+    font: weight 600; ;
+}
+.menu h2 {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font: weight 400; 
+}
+.container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
