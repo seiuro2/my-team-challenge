@@ -1,6 +1,7 @@
 body {
     background-color: #fafafa;
-    max-width:1440px;     
+    max-width:1440px;
+    width: 100%;    
 
 }
 
@@ -11,7 +12,10 @@ body {
     display: flex;
     align-items: baseline;
     width: 500px;
-    padding-left: 30px;
+    position: relative;
+    top:50px;
+    left:243px
+
 
 }
 .menu p {
@@ -31,18 +35,22 @@ body {
     left:730px
 }
 .container {
-
+    display: flex;
+    max-width: 1440px;
+    max-height: 814px;
+    margin-left: 35px;
     width: 100%;
-    max-width: 1024px;
+    height: 100%;
+    
   
 }
 .container-image1 {
     
    width: 264px; 
    height: 383px;  
-   position: absolute;
-   top: 329px;
-   left:240px;
+   position: relative;
+   top: 100px;
+   left:243px;
 
 }    
 .container-image1 p {
@@ -71,7 +79,7 @@ body {
     height: 471px;
     position: relative;
     top: 200px;
-    left: 534.64px;
+    left: 300px;
 }
 .container-image2 p {
     font-family:  sans-serif;
@@ -96,9 +104,9 @@ body {
 .container-image3 {
     width: 300.81px;
     height: 399.96px;
-    position: absolute;
-    top: 329px;
-    left: 850px;
+    position: relative;
+    top: 90px;
+    left: 360px;
 }
 .container-image3 p {
     font-family:  sans-serif;
@@ -124,11 +132,11 @@ body {
 
 }
 .container-image4 {
-    position: absolute;
+    position: relative;
     width: 276.68px;
     height: 469px;
-    left: 241px;
-    top: 759px;
+    left: -470px;
+    top: 525px;
   }  
 .container-image4 p {
     font-family:  sans-serif;
@@ -153,11 +161,11 @@ body {
     height:341px;
 }
 .container-image5 {
-    position: absolute;
+    position: relative;
     width: 274.36px;
     height: 360px;
-    left: 534.64px;
-    top: 943px;
+    left: -415px;
+    top: 600px;
     
 
 }
@@ -185,10 +193,11 @@ body {
  
     position: relative;
     width: 250px;
-    height: 400p;
-    left: 864.69px;
-    top: 45px;
+    height: 400px;
+    left: -355px;
+    top: 525px
 }
+
 
 .container-image6 p {
     font-family:  sans-serif;
@@ -210,4 +219,46 @@ body {
 .container-image6 img{
     width:237px; 
     height:341px
+}
+
+@media(max-width:720px){
+    .container {
+        flex-direction: column;
+        height: auto;
+        max-width: 375px;
+        max-height: 1314px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+     
+    }
+    .container h1 {
+        display: flex;
+        text-align: left;
+    }
+    .container-image1 {
+        margin: 0 auto;
+        width: 138.72px;
+        height: 261.4px;
+        position: relative;
+        top: 100px;
+        left:100px;
+    }
+    .container-image2 {
+        margin: 0 auto;
+        width: 177.42px;
+        height: 283.69px;
+        position: relative;
+        top: 50px;
+        left: 550px;
+    }
+    .container-image3{
+        margin: 0 auto;
+        position: relative;
+        top: 200px;
+        left: 200px 
+
+    }
+
 }
